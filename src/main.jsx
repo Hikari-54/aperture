@@ -1,10 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import './reset.css'
-import './fonts.scss'
+import './index.scss'
 import Container from '../src/components/Container/Container'
 import Header from '../src/components/Header/Header'
 import Hero from '../src/components/Hero/Hero'
+import Areas from './components/Areas/Areas'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
@@ -12,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Header />
       <main>
         <Hero />
-
+        <Areas />
       </main>
     </Container>
   </React.StrictMode>,
