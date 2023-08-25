@@ -9,6 +9,13 @@ html{
 html{
     background-color: #000000;
 }
+button{
+    border-radius: 14px;
+    background: #FFFFFF;
+}
+button *{
+    color: #000000;
+}
 
 body, div{
     font-family: 'Poppins', sans-serif;
